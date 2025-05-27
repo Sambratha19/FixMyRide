@@ -3,7 +3,7 @@ import 'package:login/model1/message.dart';
 import 'package:flutter/cupertino.dart';
 
 class ChatProvider with ChangeNotifier {
-  final _apiService = GeminiApiService(apiKey: 'AIzaSyAh7ikInqAqU5ZDZKuNaqzHsCvPkJ2dD8Q');
+  final _apiService = GeminiApiService(apiKey: '****');
 
   final List<Message> _messages = [];
   bool _isLoading = false;
